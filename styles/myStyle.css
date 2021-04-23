@@ -1,0 +1,52 @@
+body {
+    width: 1280px;
+    direction: rtl;
+}
+
+
+/* ריבוע צהוב */
+
+#yellow {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(250, 253, 59);
+    margin: 30px;
+    padding: 20px;
+}
+
+#yellow ul {
+    color: #F44336;
+}
+
+
+/*  כאן ניתן לראות את ההבדלים בין בן ישיר - חץ לרווח על ידי מחיקת החץ */
+
+#yellow>ul {
+    color: #4CAF50;
+}
+
+
+/* ריבוע ירוק */
+
+#green {
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+    margin: 30px;
+    padding: 20px;
+}
+
+div p {
+    background-color: white;
+}
+
+
+/*  כאן ניתן לראות את ההבדלים בין בן ישיר - חץ לרווח על ידי מחיקת החץ */
+
+#green>p {
+    background-color: rgb(182, 143, 255);
+}
+
+#yellow>ul li {
+    list-style-type: circle;
+}
